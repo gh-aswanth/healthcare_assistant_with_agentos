@@ -103,7 +103,7 @@ Checks hospital resource availability and provides transfer recommendations. Rea
 Provides smart assistance for user cases by orchestrating a workflow that includes triage assessment, verification, case history search, emergency action list generation, resource availability check, and summary generation. Uses a state graph to manage the flow of information between different components.
 
 ## Documentation
-* You can find the documentation in Notion AI : [Notion.ai](https://teams.microsoft.com/l/message/19:656959d4-d20b-40ae-aa77-0601222635dd_ec562a69-cd36-477f-93b7-84d0ec341777@unq.gbl.spaces/1752507041669?context=%7B%22contextType%22%3A%22chat%22%7D)
+* You can find the documentation in Notion AI : [Notion.ai](https://denim-cayenne-e7a.notion.site/Documentation-Outline-230757bb4ab58058a503fbe30911f43c)
 * You can see the slide deck in [Gamma.app](https://gamma.app/docs/Multi-Agent-System-for-Hospital-Management-lg58btvrzi1iskg)
 
 ## Video Link
