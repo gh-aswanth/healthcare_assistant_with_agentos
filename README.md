@@ -133,7 +133,7 @@ JSON file containing information about current hospital resource availability.
 1. Clone the repository: https://github.com/genai-works-org/genai-agentos/blob/main/README.md
 2. Follow the instructions within the file to setup the AgentOS stack
 3. Ensure the docker container of Genai-agent os is running.
-1. Now Clone this repository [link](https://github.com/gh-aswanth/healthcare_assistant_with_agentod)
+1. Now Clone this repository [link](https://github.com/gh-aswanth/healthcare_assistant_with_agentos)
 2. Install dependencies:
    ```
    pip install -r requirements.txt
