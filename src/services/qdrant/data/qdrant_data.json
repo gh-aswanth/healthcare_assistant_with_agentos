@@ -1,0 +1,904 @@
+[
+  {
+    "name": "Aarav Sharma",
+    "age": 48,
+    "gender": "M",
+    "department": "Cardiology",
+    "case_summary": "Chest pain, SOB, HTN history.",
+    "health_condition": "Unstable",
+    "diagnosis": "NSTEMI",
+    "current_medications": ["Aspirin", "Nitroglycerin"],
+    "allergies": ["Penicillin"],
+    "vitals": {
+      "BP": "150/90",
+      "HR": 110,
+      "SpO2": "92%"
+    },
+    "consultant_recommendation": "Cardiac cath lab consult",
+    "treatment_given": [
+                      {
+                    "department": "Cardiology",
+                    "next_steps": [
+                      {
+                        "next_department": "Emergency Medicine",
+                        "treatments": [
+                          "Administer Aspirin and Clopidogrel stat",
+                          "Attach to cardiac monitor",
+                          "Start IV Nitroglycerin infusion",
+                          "Monitor SpO2 and provide oxygen if <94%",
+                          "Record 12-lead ECG immediately"
+                        ]
+                      },
+                      {
+                        "next_department": "Cath Lab",
+                        "treatments": [
+                          "Prepare for angiography",
+                          "Start IV Heparin bolus",
+                          "Ensure informed consent",
+                          "Check renal function before contrast",
+                          "Perform PCI if occlusion found"
+                        ]
+                      }
+                    ]
+                  }
+    ],
+    "full_summary": "Aarav Sharma, 48-year-old male in Cardiology, presented with chest pain and shortness of breath. Past history of hypertension. On exam, vitals: BP 150/90, HR 110, SpO2 92%. Diagnosed with NSTEMI. Allergic to penicillin. Given Aspirin and started Nitroglycerin infusion. Placed on cardiac monitor with oxygen support. Recommendation is urgent cardiac cath lab consult."
+  },
+  {
+    "name": "Sana Ali",
+    "age": 26,
+    "gender": "F",
+    "department": "Orthopedics",
+    "case_summary": "RTA with femur fracture and head trauma",
+    "health_condition": "Unconscious",
+    "diagnosis": "Polytrauma with suspected brain injury",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "90/60",
+      "HR": 130,
+      "SpO2": "89%"
+    },
+    "consultant_recommendation": "Emergency CT and trauma surgery consult",
+    "treatment_given": [
+                          {
+                            "department": "Orthopedics",
+                            "next_steps": [
+                              {
+                                "next_department": "Radiology",
+                                "treatments": [
+                                  "X-ray of the fracture site",
+                                  "CT scan for complex fractures",
+                                  "MRI if soft tissue damage suspected",
+                                  "FAST ultrasound to check internal bleeding",
+                                  "Upload images to trauma dashboard"
+                                ]
+                              },
+                              {
+                                "next_department": "Surgery",
+                                "treatments": [
+                                  "Wound cleaning and debridement",
+                                  "External fixation setup",
+                                  "Plan for open reduction if needed",
+                                  "Confirm anesthesia clearance",
+                                  "Prepare blood units for transfusion"
+                                ]
+                              }
+                            ]
+                          }
+    ],
+    "full_summary": "Sana Ali, 26-year-old female brought after a road traffic accident. Found unconscious at scene. Multiple injuries noted including femur fracture and scalp laceration. BP 90/60, HR 130, SpO2 89%. Suspected traumatic brain injury. Spine stabilized, IV fluids and oxygen started. Referred to trauma team and sent for urgent CT scan."
+  },
+  {
+    "name": "Raghav Mehta",
+    "age": 62,
+    "gender": "M",
+    "department": "Cardiology",
+    "case_summary": "Collapsed at home, no pulse on arrival",
+    "health_condition": "Unconscious",
+    "diagnosis": "Cardiac arrest (VF)",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "undetectable",
+      "HR": "none",
+      "SpO2": "unavailable"
+    },
+    "consultant_recommendation": "Emergency resuscitation",
+    "treatment_given": [
+                      {
+                    "department": "Cardiology",
+                    "next_steps": [
+                      {
+                        "next_department": "Emergency Medicine",
+                        "treatments": [
+                          "Administer Aspirin and Clopidogrel stat",
+                          "Attach to cardiac monitor",
+                          "Start IV Nitroglycerin infusion",
+                          "Monitor SpO2 and provide oxygen if <94%",
+                          "Record 12-lead ECG immediately"
+                        ]
+                      },
+                      {
+                        "next_department": "Cath Lab",
+                        "treatments": [
+                          "Prepare for angiography",
+                          "Start IV Heparin bolus",
+                          "Ensure informed consent",
+                          "Check renal function before contrast",
+                          "Perform PCI if occlusion found"
+                        ]
+                      }
+                    ]
+                  }
+    ],
+    "full_summary": "Raghav Mehta, 62-year-old male brought in unresponsive. No pulse or breathing on arrival. Immediate CPR and defibrillation started. Initial rhythm: ventricular fibrillation. Adrenaline given, patient bagged and monitored. High suspicion of sudden cardiac arrest."
+  },
+  {
+    "name": "Neha Verma",
+    "age": 19,
+    "gender": "F",
+    "department": "Psychiatry",
+    "case_summary": "Intentional overdose, found semi-conscious",
+    "health_condition": "Critical",
+    "diagnosis": "Suicide attempt - benzodiazepine poisoning",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "95/55",
+      "HR": 60,
+      "SpO2": "88%"
+    },
+    "consultant_recommendation": "Toxicology and ICU consult",
+    "treatment_given": [
+      {
+    "department": "Psychiatry",
+    "next_steps": [
+      {
+        "next_department": "Toxicology",
+        "treatments": [
+          "Gastric lavage if within time window",
+          "Administer activated charcoal",
+          "Check serum drug levels",
+          "Monitor ECG for QT prolongation",
+          "IV fluids to flush toxins"
+        ]
+      },
+      {
+        "next_department": "Medical ICU",
+        "treatments": [
+          "Start sedation protocol if agitated",
+          "Continuous vitals and neuro monitoring",
+          "IV thiamine and glucose if indicated",
+          "Suicide watch protocol activated",
+          "Update family and document mental status"
+        ]
+      }
+    ]
+  }
+    ],
+    "full_summary": "Neha Verma, 19-year-old female, suspected benzodiazepine overdose. Found with empty pill bottles. Semi-conscious with low BP and oxygen saturation. Emergency gastric decontamination done. Transferred to ICU for monitoring and psychiatric evaluation post stabilization."
+  },
+  {
+    "name": "Karan Joshi",
+    "age": 54,
+    "gender": "M",
+    "department": "Internal Medicine",
+    "case_summary": "High-grade fever, delirium, hypotension",
+    "health_condition": "Deteriorating",
+    "diagnosis": "Sepsis with suspected meningitis",
+    "current_medications": [],
+    "allergies": ["Sulfa drugs"],
+    "vitals": {
+      "BP": "85/50",
+      "HR": 118,
+      "SpO2": "91%"
+    },
+    "consultant_recommendation": "Lumbar puncture and IV antibiotics",
+    "treatment_given": [
+      {
+  "department": "Internal Medicine",
+  "next_steps": [
+    {
+      "next_department": "Infectious Diseases",
+      "treatments": [
+        "Obtain blood and urine cultures",
+        "Start empiric broad-spectrum antibiotics",
+        "Monitor for signs of systemic infection",
+        "Initiate sepsis protocol if criteria met",
+        "Review recent travel and exposure history"
+      ]
+    },
+    {
+      "next_department": "Critical Care",
+      "treatments": [
+        "Initiate IV fluid resuscitation",
+        "Insert central line for medication delivery",
+        "Start vasopressors if hypotension persists",
+        "Order lactate and monitor perfusion markers",
+        "Prepare for intubation if respiratory distress"
+      ]
+    }
+  ]
+}
+
+    ],
+    "full_summary": "Karan Joshi, 54-year-old male presented with fever, confusion, and low blood pressure. BP 85/50, HR 118, SpO2 91%. Signs of sepsis with possible meningitis. Broad-spectrum IV antibiotics and fluids started. Awaiting LP and blood culture results."
+  },
+  {
+    "name": "Pooja Nair",
+    "age": 70,
+    "gender": "F",
+    "department": "Neurology",
+    "case_summary": "Sudden right-sided weakness and slurred speech",
+    "health_condition": "Unstable",
+    "diagnosis": "Acute ischemic stroke",
+    "current_medications": ["Atorvastatin"],
+    "allergies": [],
+    "vitals": {
+      "BP": "180/100",
+      "HR": 90,
+      "SpO2": "95%"
+    },
+    "consultant_recommendation": "Immediate neuroimaging and thrombolysis",
+    "treatment_given": [
+      {
+    "department": "Neurology",
+    "next_steps": [
+      {
+        "next_department": "Radiology",
+        "treatments": [
+          "CT brain (non-contrast)",
+          "MRI for infarct confirmation",
+          "Angiography for vessel occlusion",
+          "Image upload for stroke grading",
+          "Radiologist confirmation within 10 mins"
+        ]
+      },
+      {
+        "next_department": "Stroke Unit",
+        "treatments": [
+          "Initiate thrombolytic checklist",
+          "Administer tPA if eligible",
+          "Hourly neuro assessments",
+          "Monitor BP and bleeding signs",
+          "Swallowing assessment before feeding"
+        ]
+      }
+    ]
+  }
+    ],
+    "full_summary": "Pooja Nair, 70-year-old female with sudden-onset right-sided weakness, slurred speech. BP 180/100. Suspected acute stroke. Immediate CT ordered, neurology alerted. IV fluids and stroke protocol initiated."
+  },
+  {
+    "name": "Deepak Rao",
+    "age": 37,
+    "gender": "M",
+    "department": "Emergency Medicine",
+    "case_summary": "Severe anaphylaxis after bee sting",
+    "health_condition": "Critical",
+    "diagnosis": "Anaphylactic shock",
+    "current_medications": [],
+    "allergies": ["Bee venom"],
+    "vitals": {
+      "BP": "78/48",
+      "HR": 130,
+      "SpO2": "86%"
+    },
+    "consultant_recommendation": "ICU admission and epinephrine therapy",
+    "treatment_given": [
+      {
+    "department": "Emergency Medicine",
+    "next_steps": [
+      {
+        "next_department": "Radiology",
+        "treatments": [
+          "Full body trauma scan protocol",
+          "FAST abdominal ultrasound",
+          "Spinal X-rays for immobilized patient",
+          "Head CT to rule out hemorrhage",
+          "Immediate radiology report alert"
+        ]
+      },
+      {
+        "next_department": "ICU",
+        "treatments": [
+          "Ventilator support if needed",
+          "Hourly vitals and fluid monitoring",
+          "Pain management protocol",
+          "Sedation titration",
+          "Prepare for potential surgery"
+        ]
+      }
+    ]
+  }
+    ],
+    "full_summary": "Deepak Rao, 37-year-old male, developed sudden anaphylaxis after bee sting. BP 78/48, SpO2 86%. Epinephrine given immediately, along with IV steroids and antihistamines. Admitted to ICU for monitoring airway and shock."
+  },
+  {
+    "name": "Meena Das",
+    "age": 60,
+    "gender": "F",
+    "department": "Cardiology",
+    "case_summary": "Palpitations, chest tightness, anxiety",
+    "health_condition": "Unstable",
+    "diagnosis": "Atrial fibrillation with rapid ventricular response",
+    "current_medications": ["Metoprolol"],
+    "allergies": [],
+    "vitals": {
+      "BP": "100/70",
+      "HR": 160,
+      "SpO2": "94%"
+    },
+    "consultant_recommendation": "Cardioversion if not controlled medically",
+    "treatment_given": [
+      {
+                    "department": "Cardiology",
+                    "next_steps": [
+                      {
+                        "next_department": "Emergency Medicine",
+                        "treatments": [
+                          "Administer Aspirin and Clopidogrel stat",
+                          "Attach to cardiac monitor",
+                          "Start IV Nitroglycerin infusion",
+                          "Monitor SpO2 and provide oxygen if <94%",
+                          "Record 12-lead ECG immediately"
+                        ]
+                      },
+                      {
+                        "next_department": "Cath Lab",
+                        "treatments": [
+                          "Prepare for angiography",
+                          "Start IV Heparin bolus",
+                          "Ensure informed consent",
+                          "Check renal function before contrast",
+                          "Perform PCI if occlusion found"
+                        ]
+                      }
+                    ]
+                  }
+    ],
+    "full_summary": "Meena Das, 60-year-old female with sudden palpitations and chest pressure. Found in rapid AF (HR 160), BP 100/70. Started on IV beta-blocker and monitored. May require cardioversion if rate remains uncontrolled."
+  },
+  {
+    "name": "Ritesh Malhotra",
+    "age": 28,
+    "gender": "M",
+    "department": "Emergency Medicine",
+    "case_summary": "Seizure episode at workplace, post-ictal confusion",
+    "health_condition": "Semi-conscious",
+    "diagnosis": "New-onset generalized seizure",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "120/80",
+      "HR": 100,
+      "SpO2": "93%"
+    },
+    "consultant_recommendation": "Neuro consult and CT brain",
+    "treatment_given": [
+      {
+    "department": "Emergency Medicine",
+    "next_steps": [
+      {
+        "next_department": "Radiology",
+        "treatments": [
+          "Full body trauma scan protocol",
+          "FAST abdominal ultrasound",
+          "Spinal X-rays for immobilized patient",
+          "Head CT to rule out hemorrhage",
+          "Immediate radiology report alert"
+        ]
+      },
+      {
+        "next_department": "ICU",
+        "treatments": [
+          "Ventilator support if needed",
+          "Hourly vitals and fluid monitoring",
+          "Pain management protocol",
+          "Sedation titration",
+          "Prepare for potential surgery"
+        ]
+      }
+    ]
+  }
+    ],
+    "full_summary": "Ritesh Malhotra, 28-year-old male, had seizure at work. Found post-ictal and confused. BP and vitals stable. Given lorazepam and airway support. Neuro evaluation planned with urgent CT scan."
+  },
+  {
+    "name": "Anjali Patel",
+    "age": 33,
+    "gender": "F",
+    "department": "Gynecology",
+    "case_summary": "Heavy vaginal bleeding, dizziness, low BP",
+    "health_condition": "Unstable",
+    "diagnosis": "Early pregnancy loss with hemorrhage",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "85/50",
+      "HR": 120,
+      "SpO2": "90%"
+    },
+    "consultant_recommendation": "OB emergency and blood transfusion",
+    "treatment_given": [
+      {
+  "department": "Gynecology",
+  "next_steps": [
+    {
+      "next_department": "Obstetric Emergency",
+      "treatments": [
+        "Stabilize with IV fluids and oxygen",
+        "Assess fetal heart rate if pregnant",
+        "Perform pelvic ultrasound immediately",
+        "Crossmatch blood and arrange for transfusion",
+        "Administer uterotonics if postpartum hemorrhage suspected"
+      ]
+    },
+    {
+      "next_department": "Surgical Unit",
+      "treatments": [
+        "Prep patient for possible D&C or laparotomy",
+        "Obtain informed surgical consent",
+        "Start broad-spectrum IV antibiotics",
+        "Ensure NPO status and anesthetic clearance",
+        "Arrange post-op monitoring and ICU transfer if unstable"
+      ]
+    }
+  ]
+}
+
+    ],
+    "full_summary": "Anjali Patel, 33-year-old female, presented with heavy vaginal bleeding and dizziness. BP 85/50, HR 120. Suspected early pregnancy complication with hemorrhage. IV resuscitation started. Gynecology and transfusion services alerted."
+  },
+  {
+    "name": "Ishaan Rao",
+    "age": 34,
+    "gender": "M",
+    "department": "General Medicine",
+    "case_summary": "Low-grade fever and sore throat",
+    "health_condition": "Stable",
+    "diagnosis": "Viral pharyngitis",
+    "current_medications": ["Paracetamol"],
+    "allergies": [],
+    "vitals": {
+      "BP": "120/80",
+      "HR": 84,
+      "SpO2": "98%"
+    },
+    "consultant_recommendation": "Symptomatic treatment, hydration",
+    "treatment_given": [
+      {
+        "department": "General Medicine",
+        "next_steps": [
+          {
+            "next_department": "Pharmacy",
+            "treatments": [
+              "Dispense paracetamol",
+              "Provide saline throat gargle",
+              "Advise cough lozenges",
+              "Issue hydration guide",
+              "Supply vitamin C supplements"
+            ]
+          },
+          {
+            "next_department": "Nursing Station",
+            "treatments": [
+              "Check for any fever spike",
+              "Counsel on rest and fluids",
+              "Educate on viral recovery timeline",
+              "Advise when to return for reevaluation",
+              "Document allergy status"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Ishaan Rao, 34-year-old male, presented with sore throat and low-grade fever. No respiratory distress. Vitals stable. Diagnosed with viral pharyngitis. Treated symptomatically."
+  },
+  {
+    "name": "Meera Iyer",
+    "age": 24,
+    "gender": "F",
+    "department": "Dermatology",
+    "case_summary": "Mild rash and itching on arms",
+    "health_condition": "Stable",
+    "diagnosis": "Contact dermatitis",
+    "current_medications": ["Hydrocortisone cream"],
+    "allergies": ["Dust mites"],
+    "vitals": {
+      "BP": "110/70",
+      "HR": 72,
+      "SpO2": "99%"
+    },
+    "consultant_recommendation": "Topical steroid, avoid irritants",
+    "treatment_given": [
+      {
+        "department": "Dermatology",
+        "next_steps": [
+          {
+            "next_department": "Pharmacy",
+            "treatments": [
+              "Dispense hydrocortisone cream",
+              "Issue moisturizer",
+              "Provide allergen-avoidance leaflet",
+              "Supply mild soap substitute",
+              "Recommend antihistamine (if needed)"
+            ]
+          },
+          {
+            "next_department": "Nursing Station",
+            "treatments": [
+              "Educate on application technique",
+              "Check for spread or worsening",
+              "Record known allergens",
+              "Review hygiene habits",
+              "Plan follow-up if unresolved"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Meera Iyer, 24-year-old female, has localized itchy rash. Diagnosed with contact dermatitis. All vitals normal. Prescribed topical corticosteroid and skin care instructions given."
+  },
+  {
+    "name": "Amit Kapoor",
+    "age": 36,
+    "gender": "M",
+    "department": "ENT",
+    "case_summary": "Mild nasal congestion and sneezing",
+    "health_condition": "Stable",
+    "diagnosis": "Allergic rhinitis",
+    "current_medications": ["Levocetirizine"],
+    "allergies": ["Pollen"],
+    "vitals": {
+      "BP": "122/78",
+      "HR": 80,
+      "SpO2": "97%"
+    },
+    "consultant_recommendation": "Start antihistamine, avoid triggers",
+    "treatment_given": [
+      {
+        "department": "ENT",
+        "next_steps": [
+          {
+            "next_department": "Pharmacy",
+            "treatments": [
+              "Dispense levocetirizine",
+              "Issue saline nasal spray",
+              "Provide allergy mask",
+              "Hand out allergen log sheet",
+              "Explain dosage timing"
+            ]
+          },
+          {
+            "next_department": "Outpatient Registration",
+            "treatments": [
+              "Schedule seasonal review",
+              "Record allergy profile",
+              "Provide ENT educational brochure",
+              "Record environmental exposures",
+              "Advise on home air filters"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Amit Kapoor, 36-year-old male, presents with allergic rhinitis symptoms. Stable vitals. Antihistamine started. Education on pollen avoidance provided."
+  },
+  {
+    "name": "Nikita Sharma",
+    "age": 29,
+    "gender": "F",
+    "department": "Orthopedics",
+    "case_summary": "Mild wrist pain after yoga",
+    "health_condition": "Stable",
+    "diagnosis": "Soft tissue strain",
+    "current_medications": ["Ibuprofen"],
+    "allergies": [],
+    "vitals": {
+      "BP": "118/75",
+      "HR": 78,
+      "SpO2": "99%"
+    },
+    "consultant_recommendation": "Rest, NSAIDs, wrist support",
+    "treatment_given": [
+      {
+        "department": "Orthopedics",
+        "next_steps": [
+          {
+            "next_department": "Radiology",
+            "treatments": [
+              "Wrist X-ray to rule out fracture",
+              "Ultrasound for ligament injury",
+              "Confirm absence of dislocation",
+              "Check soft tissue swelling",
+              "Print and share scan results"
+            ]
+          },
+          {
+            "next_department": "Physiotherapy",
+            "treatments": [
+              "Teach wrist mobility exercises",
+              "Advise on wrist brace usage",
+              "Instruct cold compression technique",
+              "Record pain scale score",
+              "Schedule rehab follow-up"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Nikita Sharma, 29-year-old female, complains of wrist pain after yoga. Clinical signs point to soft tissue strain. No fracture suspected. NSAIDs and wrist support prescribed."
+  },
+  {
+    "name": "Ravi Khanna",
+    "age": 45,
+    "gender": "M",
+    "department": "Ophthalmology",
+    "case_summary": "Routine eye check-up",
+    "health_condition": "Stable",
+    "diagnosis": "Presbyopia",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "122/80",
+      "HR": 78,
+      "SpO2": "98%"
+    },
+    "consultant_recommendation": "Prescription reading glasses",
+    "treatment_given": [
+      {
+        "department": "Ophthalmology",
+        "next_steps": [
+          {
+            "next_department": "Optical Services",
+            "treatments": [
+              "Provide prescription for near vision",
+              "Assist with frame selection",
+              "Take pupillary distance measurement",
+              "Explain lens coating options",
+              "Guide on adapting to new glasses"
+            ]
+          },
+          {
+            "next_department": "Patient Counseling",
+            "treatments": [
+              "Advise on eye strain prevention",
+              "Demonstrate proper lighting for reading",
+              "Plan annual vision screening",
+              "Provide lens cleaning tips",
+              "Educate on age-related vision changes"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Ravi Khanna, 45-year-old male, visited for vision check-up. No pathology noted. Diagnosed with presbyopia. Reading glasses recommended. Vision hygiene advice provided."
+  },
+  {
+    "name": "Arjun Singh",
+    "age": 58,
+    "gender": "M",
+    "department": "Cardiology",
+    "case_summary": "Severe chest pain, diaphoresis, history of diabetes",
+    "health_condition": "Critical",
+    "diagnosis": "Acute STEMI",
+    "current_medications": ["Aspirin"],
+    "allergies": [],
+    "vitals": {
+      "BP": "80/50",
+      "HR": 120,
+      "SpO2": "90%"
+    },
+    "consultant_recommendation": "Immediate PCI in cath lab",
+    "treatment_given": [
+      {
+        "department": "Cardiology",
+        "next_steps": [
+          {
+            "next_department": "Emergency Medicine",
+            "treatments": [
+              "Give loading dose of Clopidogrel",
+              "Attach to cardiac monitor",
+              "Start IV Nitroglycerin infusion",
+              "Provide high‑flow oxygen",
+              "Record 12‑lead ECG"
+            ]
+          },
+          {
+            "next_department": "Cath Lab",
+            "treatments": [
+              "Activate cath lab team",
+              "Start IV Heparin bolus",
+              "Obtain informed consent",
+              "Check renal function for contrast",
+              "Perform primary PCI"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Arjun Singh, 58‑year‑old male, presented with crushing chest pain and sweating. Hypotensive and tachycardic. ECG shows ST elevation. Diagnosis: acute STEMI. Aspirin given; urgent transfer to cath lab planned."
+  },
+  {
+    "name": "Kavita Rao",
+    "age": 30,
+    "gender": "F",
+    "department": "Trauma Surgery",
+    "case_summary": "High‑speed RTA, multiple fractures, possible head injury",
+    "health_condition": "Unconscious",
+    "diagnosis": "Polytrauma with suspected intracranial bleed",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "90/60",
+      "HR": 140,
+      "SpO2": "88%"
+    },
+    "consultant_recommendation": "Damage‑control surgery after imaging",
+    "treatment_given": [
+      {
+        "department": "Trauma Surgery",
+        "next_steps": [
+          {
+            "next_department": "Radiology",
+            "treatments": [
+              "FAST ultrasound for internal bleed",
+              "CT head and cervical spine",
+              "Pelvic X‑ray for fractures",
+              "Chest X‑ray for rib injury",
+              "Upload images to trauma console"
+            ]
+          },
+          {
+            "next_department": "Orthopedics",
+            "treatments": [
+              "Apply skeletal traction to femur",
+              "Stabilize open fractures with splints",
+              "Administer IV antibiotics and tetanus",
+              "Plan external fixation in OR",
+              "Coordinate blood products for surgery"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Kavita Rao, 30‑year‑old female, brought post‑collision. Unresponsive with suspected head injury and long‑bone fractures. Hypotensive and hypoxic. Immediate imaging and surgical stabilization required."
+  },
+  {
+    "name": "Mahesh Patel",
+    "age": 42,
+    "gender": "M",
+    "department": "Emergency Medicine",
+    "case_summary": "Severe anaphylaxis after peanut ingestion",
+    "health_condition": "Critical",
+    "diagnosis": "Anaphylactic shock",
+    "current_medications": [],
+    "allergies": ["Peanuts"],
+    "vitals": {
+      "BP": "70/40",
+      "HR": 130,
+      "SpO2": "85%"
+    },
+    "consultant_recommendation": "ICU admission for airway monitoring",
+    "treatment_given": [
+      {
+        "department": "Emergency Medicine",
+        "next_steps": [
+          {
+            "next_department": "ICU",
+            "treatments": [
+              "Intubate if airway edema worsens",
+              "Start intravenous epinephrine infusion",
+              "Place arterial line for BP monitoring",
+              "Begin aggressive fluid resuscitation",
+              "Continuous SpO2 and ECG monitoring"
+            ]
+          },
+          {
+            "next_department": "Allergy & Immunology",
+            "treatments": [
+              "Administer IV antihistamines",
+              "Give intravenous corticosteroids",
+              "Arrange allergen testing post‑stabilization",
+              "Educate on epinephrine autoinjector",
+              "Document reaction severity in record"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Mahesh Patel, 42‑year‑old male, developed rapid airway swelling and shock after peanuts. Epinephrine administered; ongoing management in ICU with immunology follow‑up required."
+  },
+  {
+    "name": "Latha Menon",
+    "age": 68,
+    "gender": "F",
+    "department": "Neurology",
+    "case_summary": "Sudden left‑sided paralysis and aphasia",
+    "health_condition": "Unstable",
+    "diagnosis": "Acute ischemic stroke (large vessel occlusion)",
+    "current_medications": ["Atorvastatin"],
+    "allergies": [],
+    "vitals": {
+      "BP": "200/110",
+      "HR": 95,
+      "SpO2": "94%"
+    },
+    "consultant_recommendation": "Thrombectomy after imaging",
+    "treatment_given": [
+      {
+        "department": "Neurology",
+        "next_steps": [
+          {
+            "next_department": "Radiology",
+            "treatments": [
+              "Non‑contrast CT brain immediately",
+              "CT angiography for vessel occlusion",
+              "Record ASPECTS score",
+              "Upload scans for stroke team review",
+              "Rule out hemorrhage"
+            ]
+          },
+          {
+            "next_department": "Stroke Unit",
+            "treatments": [
+              "Evaluate for thrombolysis eligibility",
+              "Start IV tPA if within window",
+              "Prepare for mechanical thrombectomy",
+              "Continuous neuro checks every 15 min",
+              "Manage BP to <185/110 pre‑tPA"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Latha Menon, 68‑year‑old female, onset of left hemiplegia and speech loss 45 minutes ago. Hypertensive crisis noted. Rapid imaging and potential thrombectomy planned."
+  },
+  {
+    "name": "Renu Sharma",
+    "age": 32,
+    "gender": "F",
+    "department": "Gynecology",
+    "case_summary": "Severe postpartum hemorrhage 1 hour after delivery",
+    "health_condition": "Critical",
+    "diagnosis": "Primary PPH due to uterine atony",
+    "current_medications": [],
+    "allergies": [],
+    "vitals": {
+      "BP": "85/50",
+      "HR": 130,
+      "SpO2": "92%"
+    },
+    "consultant_recommendation": "Urgent surgical intervention",
+    "treatment_given": [
+      {
+        "department": "Gynecology",
+        "next_steps": [
+          {
+            "next_department": "Obstetric OR",
+            "treatments": [
+              "Begin uterine massage and bimanual compression",
+              "Administer IV oxytocin bolus",
+              "Prepare for Bakri balloon placement",
+              "Cross‑match 4 units PRBCs",
+              "Perform exploratory laparotomy if bleeding persists"
+            ]
+          },
+          {
+            "next_department": "ICU",
+            "treatments": [
+              "Insert large‑bore IV lines",
+              "Start rapid blood transfusion",
+              "Monitor urine output hourly",
+              "Correct coagulopathy with FFP/platelets",
+              "Continuous hemodynamic monitoring"
+            ]
+          }
+        ]
+      }
+    ],
+    "full_summary": "Renu Sharma, 32‑year‑old female, developed massive bleeding shortly after vaginal delivery. Hypotensive and tachycardic. Uterotonics, transfusion, and possible surgical control of hemorrhage required."
+  }
+]

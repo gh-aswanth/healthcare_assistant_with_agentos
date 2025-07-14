@@ -1,0 +1,105 @@
+[
+  {
+    "hospital_name": "Sunrise Multi-Speciality Hospital",
+    "location": "Sector 21, Navi Mumbai",
+    "contact_number": "+91-22-3987-1100",
+    "departments": [
+      {"name": "Cardiology", "rating": 4.7},
+      {"name": "Trauma Surgery", "rating": 4.3},
+      {"name": "ICU", "rating": 4.1},
+      {"name": "Orthopedics", "rating": 4.5},
+      {"name": "Oncology", "rating": 4.0}
+    ]
+  },
+  {
+    "hospital_name": "Lotus Heart Institute",
+    "location": "Dadar East, Mumbai",
+    "contact_number": "+91-22-2444-2233",
+    "departments": [
+      {"name": "Cardiology", "rating": 4.9},
+      {"name": "Neurology", "rating": 4.2},
+      {"name": "Gastroenterology", "rating": 4.0}
+    ]
+  },
+  {
+    "hospital_name": "Global HealthCare Centre",
+    "location": "Andheri West, Mumbai",
+    "contact_number": "+91-22-2678-5555",
+    "departments": [
+      {"name": "Pulmonology", "rating": 4.6},
+      {"name": "Respiratory ICU", "rating": 4.2},
+      {"name": "Geriatrics", "rating": 4.0},
+      {"name": "Obstetrics", "rating": 4.1}
+    ]
+  },
+  {
+    "hospital_name": "Jeevan Jyoti Hospital",
+    "location": "Chembur, Mumbai",
+    "contact_number": "+91-22-2529-8899",
+    "departments": [
+      {"name": "Gastroenterology & Hepatology", "rating": 4.3},
+      {"name": "Endocrinology", "rating": 3.9},
+      {"name": "ICU", "rating": 3.8}
+    ]
+  },
+  {
+    "hospital_name": "Fortis Hospital",
+    "location": "Mulund West, Mumbai",
+    "contact_number": "+91-22-6799-4444",
+    "departments": [
+      {"name": "ICU", "rating": 4.8},
+      {"name": "Orthopedics", "rating": 4.5},
+      {"name": "Cardiology", "rating": 4.6},
+      {"name": "Hematology", "rating": 4.2}
+    ]
+  },
+  {
+    "hospital_name": "City Line Hospital",
+    "location": "Kurla, Mumbai",
+    "contact_number": "+91-22-2655-7788",
+    "departments": [
+      {"name": "Trauma Surgery", "rating": 4.1},
+      {"name": "Pediatrics ICU", "rating": 3.8},
+      {"name": "Obstetrics", "rating": 4.0}
+    ]
+  },
+  {
+    "hospital_name": "Apex Super Speciality Hospital",
+    "location": "Vashi, Navi Mumbai",
+    "contact_number": "+91-22-2766-9900",
+    "departments": [
+      {"name": "Oncology", "rating": 4.2},
+      {"name": "Pulmonology", "rating": 4.0},
+      {"name": "Geriatrics", "rating": 3.9}
+    ]
+  },
+  {
+    "hospital_name": "Shanti Memorial Medical Centre",
+    "location": "Ghatkopar East, Mumbai",
+    "contact_number": "+91-22-2500-1234",
+    "departments": [
+      {"name": "Endocrinology", "rating": 4.3},
+      {"name": "Nephrology", "rating": 4.0},
+      {"name": "Gastroenterology", "rating": 3.7}
+    ]
+  },
+  {
+    "hospital_name": "Harmony Care Hospital",
+    "location": "Powai, Mumbai",
+    "contact_number": "+91-22-2857-6543",
+    "departments": [
+      {"name": "Neurology", "rating": 4.1},
+      {"name": "ICU", "rating": 3.9},
+      {"name": "Orthopedics", "rating": 4.2}
+    ]
+  },
+  {
+    "hospital_name": "Hopewell Hospital & Trauma Centre",
+    "location": "Kandivali East, Mumbai",
+    "contact_number": "+91-22-2887-4321",
+    "departments": [
+      {"name": "Trauma Surgery", "rating": 4.6},
+      {"name": "Cardiology", "rating": 4.2}
+    ]
+  }
+]

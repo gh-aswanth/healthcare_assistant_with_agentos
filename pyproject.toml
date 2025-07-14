@@ -1,0 +1,67 @@
+[project]
+name = "genai-work"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "faker>=37.4.0",
+    "fastapi[standard]>=0.116.1",
+    "genai-protocol==1.0.6",
+    "langchain>=0.3.26",
+    "langchain-openai>=0.3.27",
+    "langchain-qdrant>=0.2.0",
+    "langgraph>=0.5.2",
+    "loguru>=0.7.3",
+    "pydantic-settings>=2.10.1",
+    "pymongo>=4.13.2",
+]
+[tool.mypy]
+exclude=["tests", "examples"]
+namespace_packages = false
+files = ["backend/frontiers_review_assistant/**/*.py"]
+check_untyped_defs = true
+disable_error_code = ["empty-body", "unused-ignore"]
+strict = true
+
+[tool.ruff]
+include = ["*.py", "*.pyi", "**/pyproject.toml"]
+line-length = 120
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    # Compatibility with ruff formatter
+    "E501",
+    "ISC001",
+    "Q000",
+    "Q001",
+    "Q002",
+    "Q003",
+    "W191",
+]
+ignore = [
+    "ISC001",
+    "E501",  # line too long, handled by black
+    "B008",  # do not perform function calls in argument defaults
+    "C901",  # too complex
+]
+
+[tool.isort]
+atomic = true
+profile = "black"
+skip_gitignore = true
+
+[dependency-groups]
+lint = [
+    "ruff>=0.12.3",
+]
