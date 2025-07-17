@@ -6,6 +6,12 @@ This project is developed as part of a **Hackathon Challenge** organized by the 
 A sophisticated **Multi-agent system** designed to automate and enhance emergency medical workflows using AI agents, vector databases, and large language models.
 
 GenAI Works provides a robust infrastructure with seamless experience for building, configuring, and deploying intelligent agents using modern LLMs. With features like secure key management, agent-level JWT authentication, a full-featured frontend UI, **AgentOS** makes it incredibly easy to go from idea to working prototype.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LpdgPOHv_4M?si=wJXQecyW3BhLihRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<video width="600" height="400" controls>
+  <source src="https://www.youtube.com/embed/LpdgPOHv_4M?si=wJXQecyW3BhLihRz" type="video/mp4">
+</video>
  
 > 🔄 **Note:** This implementation is a **forked version** of the official [genai-agentos repository](https://github.com/genai-works-org/genai-agentos.git). The codebase has been adapted to address the specific requirements of structured email generation.
  
