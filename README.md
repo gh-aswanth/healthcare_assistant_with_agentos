@@ -213,23 +213,8 @@ git clone https://github.com/gh-aswanth/healthcare_assistant_with_agentos
 ### ⚙️ 5. Create virtual environment and Install dependencies
 
 ```bash
-# Create virtual environment
-uv venv
-# OR
-python -m venv .venv
- 
-# Activate environment
-.venv\Scripts\activate  # Windows
-source .venv/bin/activate  # macOS/Linux
- 
 # Install dependencies
 uv sync
-```
- 
-> If using `pip` instead of `uv`:
-```bash
-pip install -r requirements.txt
-```
 
 ### 🚀 6. Run the Agent
  
@@ -237,9 +222,7 @@ Go to the src directory:
  
 ```bash
 cd src\
-uv run mail_drafting_agent.py
-#OR
-python mail_drafting_agent.py
+uv run main.py
 ```
 > 🔄 *Important Note:* Our **Intelligent Orchestrator system** which is built with FastApi Server can automate the signup and login process of a user by our default credentials or users can provide their credentials in our backend script (if they needed unique login)
 
