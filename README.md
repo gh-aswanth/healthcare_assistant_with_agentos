@@ -228,6 +228,18 @@ uv run main.py
 
 Once running, the agent will be visible and interactable in your **Frontend UI â†’ Chat Section**.
 
+## AgentOS UI snapshot
+<img width="1886" height="453" alt="image (1)" src="https://github.com/user-attachments/assets/369815ce-eee8-486e-a504-cfc70b6933fa" />
+<img width="1476" height="856" alt="image (2)" src="https://github.com/user-attachments/assets/19197748-10f4-441d-b161-306bf7f9ffdb" />
+
+
+### Below video from IDE 
+
+https://github.com/user-attachments/assets/f7165e97-7b35-4977-b196-212031303cc9
+
+### You can watch the full video through this [youtube channel](https://youtu.be/LpdgPOHv_4M)
+
+
 
 ## API Endpoints
 
@@ -236,7 +248,7 @@ Once running, the agent will be visible and interactable in your **Frontend UI â
 
 ## Features
 
-- **Automated login into GenAI Agent OS Interface with custom Backend server using FastApi
+- **Automated login** into GenAI Agent OS Interface with custom Backend server using FastApi
 - **Multi-agent orchestration**: Coordinated system of specialized agents
 - **Vector similarity search**: Efficient retrieval of similar medical cases
 - **AI-powered medical recommendations**: Generation of structured emergency treatment notes
